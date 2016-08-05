@@ -4,3 +4,5 @@ In this example, you can see parts of the DOM tree being removed, duplicated, an
 ## Components that make the app run
 * A jQuery selection is made containing the p element at the end of the page, and this is cached in a variable called $p.
 * That element is copied using the .clone() method along with its content and child elements. It is stored in a variable called $clonedQuote.
+* The paragraph removed.
+* The cloned version of the quote is inserted after the h2 element at the top of the page.
