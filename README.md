@@ -6,3 +6,10 @@ In this example, you can see parts of the DOM tree being removed, duplicated, an
 * That element is copied using the .clone() method along with its content and child elements. It is stored in a variable called $clonedQuote.
 * The paragraph removed.
 * The cloned version of the quote is inserted after the h2 element at the top of the page.
+
+## How to run the app locally
+* In your terminal type
+```
+git clone https://github.com/bostonhuman/javascript-copy
+```
+* Open `cut-copy-paste.html` to run the app.
